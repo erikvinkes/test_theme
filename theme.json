@@ -1,0 +1,320 @@
+{
+    "_inherit": true,
+    "_variables": {
+        "@TitleSize": "17px",
+        "@SubtitleSize": "10px",
+        "@TextSize": "12px",
+        "@FooterSize": "10px",
+        "@TitleColor": "#5f1e4d",
+        "@SubtitleColor": "#888888",
+        "@TextColor": "#555555",
+        "@FooterColor": "black",
+        "@font-family": "sans-serif",
+        "@BackgroundColor": "#ffffff",
+		"@GridColor" : "#e7e7e7",
+        "@AxisMajorColor": "#eeeeee",
+        "@AxisMinorColor": "#eeeeee",
+		"@TIGPurpleColor": "#751558"
+    },
+    "color": "@TextColor",
+    "fontSize": "@TextSize",
+    "backgroundColor": "@BackgroundColor",
+    "dataColors": {
+		"primaryColor": "#0b9ce2",
+		"othersColor": "#CC9B00",
+		"errorColor": "#CC4000",
+		"nullColor": "#CCCCCC"
+  },
+  "object": {
+    "title": {
+      "main": {
+        "color": "@TitleColor",
+        "fontSize": "@TitleSize"
+      },
+      "subTitle": {
+        "color": "@SubtitleColor",
+        "fontSize": "@SubtitleSize"
+      },
+      "footer": {
+        "color": "@FooterColor",
+        "fontSize": "@FooterSize",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "label": {
+      "name": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "value": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    },
+    "axis": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "line": {
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "grid": {
+      "line": {
+        "highContrast": {
+          "color": "#eeeeee"
+        },
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "referenceLine": {
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "outOfBounds": {
+        "color": "@TextColor",
+        "backgroundColor": "#ffffff",
+        "fontSize": "@TextSize"
+      }
+    },
+    "legend": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    },
+	
+	"pivotTable": {
+		"content": {
+			"hover": {
+				"backgroundColor": "#f7f8fb",
+				"color": "#6f1e51"
+			}
+		}
+		},
+	"straightTable" : {
+		"content": {
+			"hover": {
+				"backgroundColor": "#f7f8fb",
+				"color": "#6f1e51"
+			}
+		}
+		}
+	
+  }, 
+    "palettes": {
+        "data": [
+            {
+                "scale": [
+                          "#51C7FD",
+						  "#13C4A3",
+						  "#7081D4",
+						  "#FB8049",
+						  "#F36F8F",
+						  "#F3b11c",
+						  "#945FCF",
+						  "#2077B3",
+						  "#DE3065",
+						  "#61B426"
+                ],
+                "name": "TIG Palet Dimensiekleuren",
+                "translation": "TIG Dimensie",
+                "propertyValue": "xnfnpc",
+                "type": "row",
+                "_id": "5aac0173be1a68155e395fad"
+            },
+            {
+                "scale": [
+                    "#b4dc00",
+                    "#bbdf1a",
+                    "#c3e333",
+                    "#cae74d",
+                    "#d2ea66",
+                    "#daed80",
+                    "#e1f199",
+                    "#e9f5b3",
+                    "#f0f8cc",
+                    "#f8fbe6"
+                ],
+                "name": "TIG Palet Frisgroen",
+                "translation": "TIG Frisgroen",
+                "propertyValue": "xnfnpd",
+                "type": "row",
+                "_id": "5aac0173be1a68155e395fae"
+            },
+            {
+                "scale": [
+                    "#51c7ff",
+                    "#62cdff",
+                    "#74d2ff",
+                    "#85d8ff",
+                    "#97ddff",
+                    "#a8e3ff",
+                    "#b9e9ff",
+                    "#cbeeff",
+                    "#dcf4ff",
+                    "#eef9ff"
+                ],
+                "name": "TIG Palet Hemelsblauw",
+                "translation": "TIG Hemelsblauw",
+                "propertyValue": "xnfner",
+                "type": "row",
+                "_id": "5aac0173be1a68155e395faf"
+            },
+            {
+                "scale": [
+                    "#b4dc00",
+                    "#751558",
+                    "#FADD3A",
+                    "#C1D9BC",
+                    "#448C9D",
+                    "#1B1464",
+                    "#565656"
+                ],
+                "name": "TIG Palet 8",
+                "translation": "TIG Palet 8",
+                "propertyValue": "xnfnpe",
+                "type": "row",
+                "_id": "5aac0173be1a68155e395fag"
+            },
+            {
+                "scale": [
+                    "#F8CBC8",
+                    "#FF8153",
+                    "#90A9D0",
+                    "#085184",
+                    "#FADD3A",
+                    "#96DBDE",
+                    "#9897A3",
+                    "#E24728",
+                    "#B28E6A",
+                    "#76C453",
+                    "#751558",
+                    "#B4DC00",
+                    "#51C7FD"
+                ],
+                "name": "TIG Palet 13",
+                "translation": "TIG Palet 13",
+                "propertyValue": "xnfnpf",
+                "type": "row",
+                "_id": "5aac0173be1a68155e395fah"
+            }
+        ],
+        "ui": [
+            
+        ]
+    },
+    "customStyles": [
+        {
+            "cssRef": "theme.css",
+            "classRef": "sense-theme"
+        }
+    ],
+    "scales": [
+        {
+            "scale": [
+				"#0b9ce2",
+				"#51c7FF",
+				"#97DDFF",
+				"#C1EBFF",
+				"#DAF3FF",
+				"#e9F8FF"
+            ],
+            "name": "TIG Meetwaarden palet",
+            "translation": "TIG Meetwaarden",
+            "type": "class",
+            "propertyValue": "u7g2oi",
+            "_id": "5aac02b0be1a68155e395fb5"
+        },
+        {
+            "scale": [
+                "#b4dc00",
+                "#bbdf1a",
+                "#c3e333",
+                "#cae74d",
+                "#d2ea66",
+                "#daed80",
+                "#e1f199",
+                "#e9f5b3",
+                "#f0f8cc",
+                "#f8fbe6"
+            ],
+            "name": "TIG Frisgroen",
+            "translation": "TIG Frisgroen",
+            "type": "class",
+            "propertyValue": "fda4aj",
+            "_id": "5aac02b0be1a68155e395fb4"
+        },
+        {
+            "scale": [
+                "#51c7ff",
+                "#62cdff",
+                "#74d2ff",
+                "#85d8ff",
+                "#97ddff",
+                "#a8e3ff",
+                "#b9e9ff",
+                "#cbeeff",
+                "#dcf4ff",
+                "#eef9ff"
+            ],
+            "name": "TIG Hemelsblauw",
+            "translation": "TIG Hemelsblauw",
+            "type": "class",
+            "propertyValue": "tv2v2",
+            "_id": "5aac02b0be1a68155e395fb3"
+        },
+        {
+            "scale": [
+                "#aec067",
+                "#b4dc00",
+                "#751558",
+                "#FFFFCC",
+                "#C1D9BC",
+                "#448C9D",
+                "#D7E0B3",
+                "#E7B9C5",
+                "#1289A7",
+                "#0652DD",
+                "#1B1464",
+                "#FDA7DF",
+                "#D980FA",
+                "#9980FA",
+                "#5758BB",
+                "#ED4C67",
+                "#B53471",
+                "#833471",
+                "#6F1E51"
+            ],
+            "name": "TIG Palet 20",
+            "translation": "TIG Palet 20",
+            "type": "class",
+            "propertyValue": "f6efnh",
+            "_id": "5aac0503be1a68155e395fb6"
+        }
+    ]
+}
