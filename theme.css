@@ -1,0 +1,27 @@
+/* Sheet titel */
+.qv-panel-sheet .sheet-title-container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 36px;
+	background-color: #fff !important;
+}
+/* Achtergrond sheet */
+.qvt-sheet {
+    background: #f9fafc !important;
+}
+/*sheet titel links plaatsen*/
+.sheet-title-text {
+text-align: left;
+}
+
+/* randkleuren actieve tab container object */
+li.lui-tab.ng-scope.lui-active{
+	border-top: 2px solid #751558 !important; 
+	border-bottom: 2px solid #751558 !important; 
+	border-right: 2px solid #751558 !important; 
+	border-left: 2px solid #751558 !important; 
+}
+/* Tekstkleur actieve tab container object */
+li.lui-tab.ng-scope.lui-active span{
+	color:#000000!important;
+}
